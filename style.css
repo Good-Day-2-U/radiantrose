@@ -32,8 +32,8 @@ div {
   align-items: center;
   padding-left: 15rem;
   padding-right: 15rem;
-  margin-bottom: -1.5rem;
-  margin-top: 1.5rem;
+  margin-bottom: -0.75rem;
+  margin-top: 2.75rem;
 }
 
 .link-b {
@@ -115,6 +115,7 @@ div {
   justify-content: center;
   align-items: center;
   width: 65%;
+  background-color: rgb(255, 110, 190);
 }
 
 #quote {
@@ -159,6 +160,16 @@ div {
   border-color: black;
 }
 
+.linkbox {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkbox img {
+  height: 15rem;
+  border: 1px solid black;
+  background-color: wheat;
+}
 
 /* Footer */
 
