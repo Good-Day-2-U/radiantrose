@@ -1,13 +1,28 @@
 /* Global Styles */
+body {
+  /* border: 1px solid black; */
+  background-color: pink;
+  margin: 1rem;
+}
 
 div {
   /* border: 1px solid black; */
 }
 
-.header{
+.page-content {
   display: flex;
   flex-direction: column;
-  background-color: blue;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(51, 30, 33);
+  flex-shrink: 0;
+  width: 100%;
 }
 
 .link-head {
@@ -17,7 +32,7 @@ div {
   align-items: center;
   padding-left: 15rem;
   padding-right: 15rem;
-  margin-bottom: -1rem;
+  margin-bottom: -1.5rem;
   margin-top: 1.5rem;
 }
 
@@ -45,8 +60,117 @@ div {
   background-color: red;
   width: 15rem;
   height: 1.5rem;
+  border: 3px solid black;
 }
 
 
 
 /* index.html styles */
+
+.hero {
+  margin-top: 10rem;
+  border: 1px solid black;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.logo-img {
+  /* border: 1px solid black; */
+  /* border-radius: 50%; */
+  scale: 70%;
+  z-index: 1;
+  margin-top: -3rem;
+}
+
+.crop-circle {
+  position: absolute;
+  border: 5px solid black;
+  width: 22rem;
+  height: 22rem;
+  border-radius: 50%;
+  box-shadow: 0px 0px 100px inset rgb(0, 0, 0);
+  z-index: 1;
+  margin-top: -3rem;
+
+}
+
+#heading{
+  margin-top: -4rem;
+  color: lightcoral;
+  z-index: 3;
+  /* width: 12em; */
+  /* border: 1px solid black; */
+  /* box-shadow: 0 0 100px inset black; */
+}
+
+/* Quote Section */
+
+.quote-area {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 65%;
+}
+
+#quote {
+  width: 18em;
+  font-size: 50px;
+}
+
+/* Feature Links */
+
+.feature-boxes{
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15rem;
+}
+
+.box1 {
+  width: 20rem;
+  aspect-ratio: 1/1.5;
+
+  border-style:dashed;
+  border-width: 1px;
+  border-color: black;
+}
+
+.box2 {
+  width: 20rem;
+  aspect-ratio: 1/1.5;
+
+  border-style:dashed;
+  border-width: 1px;
+  border-color: black;
+}
+
+.box3 {
+  width: 20rem;
+  aspect-ratio: 1/1.5;
+
+  border-style:dashed;
+  border-width: 1px;
+  border-color: black;
+}
+
+
+/* Footer */
+
+#footer {
+  margin-top: 10rem;
+  width: 100%;
+  background-color: rgb(51, 30, 33);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#footer-content {
+  color: palevioletred;
+}
