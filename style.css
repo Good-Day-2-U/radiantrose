@@ -1,12 +1,51 @@
 /* Global Styles */
 
 div {
-  border: 1px solid black;
+  /* border: 1px solid black; */
 }
 
+.header{
+  display: flex;
+  flex-direction: column;
+  background-color: blue;
+}
 
+.link-head {
+  /* position: absolute; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 15rem;
+  padding-right: 15rem;
+  margin-bottom: -1rem;
+  margin-top: 1.5rem;
+}
 
+.link-b {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  height: 2rem;
+  width: 7rem;
+  border: 3px solid black;
+}
 
+.caption-head {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 5rem;
+}
+
+#caption {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  width: 15rem;
+  height: 1.5rem;
+}
 
 
 
