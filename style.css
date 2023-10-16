@@ -299,3 +299,32 @@ div {
 
 
 /* Contact Page */
+
+#contact-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: lightgray;
+  margin: 5rem;
+  margin-top: 3rem;
+  width: 75%;
+  height: 45vh;
+  gap: 2rem;
+  border-radius: 25px;
+  padding: 3rem;
+}
+
+#contact-hero {
+  margin-top: 3rem;
+}
+
+
+
+#contact-page-logo {
+  /* border: 1px solid black;
+  margin-bottom: 0rem; */
+}
+
+#contact-logo {
+  width: 200px;
+}
