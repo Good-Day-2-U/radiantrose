@@ -253,7 +253,7 @@ div {
 }
 
 .package-content {
-  height: 15rem;
+  height: 18rem;
   width: 60%;
   /* border: 1px solid black; */
 }
@@ -289,7 +289,7 @@ div {
 }
 
 .package-text {
-  width: 20em;
+  width: 27em;
 }
 
 .pkg-body {
@@ -318,7 +318,9 @@ div {
   margin-top: 3rem;
 }
 
-
+#form-body input {
+  margin: 5px;
+}
 
 #contact-page-logo {
   /* border: 1px solid black;
