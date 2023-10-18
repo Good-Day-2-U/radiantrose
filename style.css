@@ -452,10 +452,38 @@ div {
   font-weight: 400;
 }
 
+/* Resources Page */
 
+.resource-body {
+  display: flex;
+  flex-direction: column;
+}
 
+#res-header {
+  font-weight: 700;
+  font-size: 3.5rem;
+  letter-spacing: 2px;
+  font-family: tangerine;
+}
 
+.resource-body ul {
+  font-family: quicksand;
+}
 
+.resource-body ul p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 1.50rem;
+  font-weight: 600;
+}
+
+.resource-body ul li a {
+  text-decoration: none;
+  color: #D14D72;
+  font-weight: 600;
+  line-height: 1.5;
+}
 
 
 
