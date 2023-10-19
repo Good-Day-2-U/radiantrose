@@ -209,13 +209,14 @@ div {
   display: flex;
   width: 100%;
   /* border: 1px solid black; */
-  background-color: lightgray;
+  font-family: tangerine;
+  background-color: #000000;
 }
 
 #pkg-heroLeft {
   /* border: 1px solid black; */
   width: 33%;
-  margin-bottom: 20rem;
+  /* margin-bottom: 20rem; */
 }
 
 #pkg-header {
@@ -224,7 +225,9 @@ div {
   justify-content: center;
   /* border: 1px solid black; */
   width: 34%;
-  font-size: 46px;
+  font-size: 5rem;
+  color: #FEF2F4;
+  letter-spacing: 2px;
 }
 
 #pkg-contactLink {
@@ -233,15 +236,15 @@ div {
   align-items: center;
   /* border: 1px solid black; */
   width: 33%;
-  font-size: 26px;
+  font-size: 3rem;
   text-decoration: none;
-  color: black;
-  
+  color: #FEF2F4;
 }
 
 #pkg-contactLink:hover {
   background-color: beige;
   font-weight: 900;
+  color: #000000;
 }
 
 
@@ -255,6 +258,8 @@ div {
   align-items: center;
   padding: 5rem;
   gap: 5rem;
+  font-family: quicksand;
+  background-color: #FCC8D1;
 }
 
 .package-content {
@@ -263,43 +268,61 @@ div {
   /* border: 1px solid black; */
 }
 
+.package-body img {
+  height: 80%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 25px;
+}
+
+.package-body #pkg-4 img {
+  rotate: 90deg;
+  height: 100%;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 25px;
+}
+
 #pkg-1 {
   display: flex;
   align-items: center;
-  padding-left: 10rem;
-  background-color: rgb(146, 189, 189);
+  padding-left: 5rem;
+  background-color: #D14D72;
 }
 
 #pkg-2 {
   display: flex;
   align-items: center;
   justify-content: end;
-  padding-right: 10rem;
-  background-color: rgb(166, 184, 184);
+  padding-right: 5rem;
+  background-color: #FFABAB;
 }
 
 #pkg-3 {
   display: flex;
   align-items: center;
-  padding-left: 10rem;
-  background-color: rgb(146, 189, 189);
+  padding-left: 5rem;
+  background-color: #D14D72;
 }
 
 #pkg-4 {
   display: flex;
   align-items: center;
   justify-content: end;
-  padding-right: 10rem;
-  background-color: rgb(166, 184, 184);
+  padding-right: 5rem;
+  background-color: #FFABAB;
 }
 
 .package-text {
-  width: 27em;
+  width: 40em;
 }
 
 .pkg-body {
-  background-color: lightgray;
+  background-color: #FCC8D1;
 }
+
+
+
 
 
 
