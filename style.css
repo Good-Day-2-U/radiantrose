@@ -263,24 +263,24 @@ div {
 }
 
 .package-content {
-  height: 18rem;
+  height: auto;
   width: 60%;
   /* border: 1px solid black; */
 }
 
 .package-body img {
-  height: 80%;
+  /* height: 20rem; */
+  width: 25%;
   margin-left: 5rem;
   margin-right: 5rem;
   border-radius: 25px;
+  margin: 2rem;
 }
 
 .package-body #pkg-4 img {
   rotate: 90deg;
-  height: 100%;
-  margin-left: 5rem;
+  margin-left: 10rem;
   margin-right: 5rem;
-  border-radius: 25px;
 }
 
 #pkg-1 {
@@ -336,7 +336,7 @@ div {
   margin: 5rem;
   margin-top: 3rem;
   width: 75%;
-  height: 50vh;
+  height: auto;
   gap: 2rem;
   border-radius: 25px;
   padding: 3rem;
@@ -350,7 +350,7 @@ div {
 }
 
 #form-body input {
-  margin: 5px;
+  margin: 0.5rem;
 }
 
 #form-body label {
